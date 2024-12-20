@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+/*CSS selectors
+   -element selectors.*/
+
+div{
+    background-color: lightcyan;
+}
+h1{
+    font-size :60px;
+}
+h2{
+    font-size:40px:
+}
+p{
+    font-size:20px:
+}
+
+/* class selectors*/
+
+.unique-style{
+    background-color: lightsalmon;
+    color: white;
+    font-size:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.box-look{
+    color: #CC0000;
+    background-color: lightskyblue;
+}
+
+/*ID Selector*/
+#section-1{
+    font-style: italic;
+}
+
+#section-2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Universal selectors*/
+* {
+    text-align: center;
+}
+
+</head>
+
+<div>
+<h1>CSS Basic</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequatur quos nisi ex, iusto voluptas dolorem in omnis, ad esse dignissimos doloribus eum labore adipisci, quasi beatae libero. Dolorem, adipisci?</p>
+</div>
+<img src="https://tse2.mm.bing.net/th?id=OIP.RrePd1VbruvgUujvmA3b4gHaFj&pid=Api&P=0&h=180" alt="nature">
+
+<main>
+<div id="section-1">
+    <h1 class="box-look">CSS class</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas in omnis impedit, dolores tempora explicabo! Nulla, eveniet tenetur. Laudantium eaque consequuntur accusamus rerum sequi quaerat hic iure doloremque excepturi.</p>
+</div>
+
+<div id="section-2">
+    <h2 class="unique-style">sub-heading</h2>
+    <p class="dark-green-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit velit deserunt labore fuga, vel maiores dolore temporibus provident non consectetur recusandae, obcaecati sint officiis omnis voluptate suscipit! Consectetur, asperiores voluptate.</p>
+    <p class="unique-style">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio dolorem earum necessitatibus, eos sed sit officia praesentium nobis molestias, delectus cum enim alias veritatis adipisci repellat, molestiae commodi! Voluptas, laborum.</p>
+    <h3 class="box-look"></h3>
+
+</div>
+</body>
+</html>
